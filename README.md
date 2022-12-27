@@ -38,9 +38,9 @@ principle behind denoising autoencoders). An amusing utilization is for the reif
       <td><img src="gioconda.png" /></td>
       <td><img src="primavera.png" /></td>
       <td><img src="antonello.png" /></td>
-      <td><img src="tiziano.png" /></td>
+      <td><img src="tiziano (1).png" /></td>
       <td><img src="caravaggio.png" /></td>
-      <td><img src="manet.png" /></td>
+      <td><img src="manet (1).png" /></td>
     </tr>
  <table>
 </p>
