@@ -16,12 +16,28 @@ as well as the definition and training of specific Embedding Networks. The code 
 Among all the architectures for Embedding Networks tested so far, a Unet obtained the best results. The quality
 of the embedding is very good, as it can be appreciated by the following pictures, relative to the CelebA dataset
 
-<p align="center"><img src="mnist_syntactic.png" /><p>
+<p align="center">
+  <img src="celeba_final.png" />
+  <em>Embedding examples for the CelebA dataset. </br> In the first row there
+is the original, in the second row the synthesized latent seed, and in the third
+row the reconstructed image</em>
+</p>
 
-<p align="center"><img src="mnist_syntactic.png" /><p>
+<!-- <p align="center"><img src="celeba_unet3.png" /><p> -->
 
 # Applications
-The availability of an Embedding Network has a lot of interesting applications, largely exemplified in the introduction. In general, it opens a wide range
-of fascinating perspectives about the exploration of semantic trajectories in
-the latent space, the disentanglement of the different aspects of variations, and
-the possibility of data editing
+The availability of an Embedding Network has a lot of interesting applications, mostly related to the semantic exploration of the latent space, 
+the disentanglement of the different aspects of variations, and the definition of interesting trajectories for data editing.
+
+A typical application of the embedding process consists in transforming a signal into an element of the data manifold sufficiently close to it (the same
+principle behind denoising autoencoders). An amusing utilization is for the reification of persons in artistic portraits, as exemplified in the picture below
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="gioconda.png" /></td>
+      <td><img src="primavera.png" /></td>
+    </tr>
+ <table>
+</p>
+
