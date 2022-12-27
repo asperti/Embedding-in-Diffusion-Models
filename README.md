@@ -16,6 +16,10 @@ as well as the definition and training of specific Embedding Networks. The code 
 Among all the architectures for Embedding Networks tested so far, a Unet obtained the best results. The quality
 of the embedding is very good, as it can be appreciated by the following pictures, relative to the CelebA dataset
 
+<p align="center"><img src="mnist_syntactic.png" /><p>
+
+<p align="center"><img src="mnist_syntactic.png" /><p>
+
 # Applications
 The availability of an Embedding Network has a lot of interesting applications, largely exemplified in the introduction. In general, it opens a wide range
 of fascinating perspectives about the exploration of semantic trajectories in
