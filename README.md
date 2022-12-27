@@ -45,3 +45,17 @@ principle behind denoising autoencoders). An amusing utilization is for the reif
  <table>
 </p>
 
+Another interesting possibility is that of making sketchy modifications to
+an image (a portrait, or a photograph) and delegate to the embedder-generator
+pair the burden to integrate them in the original picture in a satisfactory way
+    
+<p align="center">
+  <table align="center">
+    <tr>
+      <td><img width="150px" src="napoleone (1).png" size="80%"/></td>
+      <td><img width="150px" src="napoleone_occhiali.png" /></td>
+      <td><img width="150px" src="napoleone_baffi.png" /></td>
+      <td><img width="150px" src="napoleone_calvo.png" /></td>
+    </tr>
+ <table>
+</p>
