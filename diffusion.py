@@ -432,7 +432,7 @@ def generate_seeds(source_img_no,num_seeds=16,save=True,epochs=1500):
 ### Embedding Network
 
 def train_embedding_network(embedding_model,generative_model,trainset,epochs,batch_size):
-    diffusion_model.trainable = False
+    generative_model.trainable = False
     def visible_loss(y_true,y_pred):
         #y_pred is the seed returned by the model
         generated = generative_model.reverse_diffusion(y_pred, 10)
