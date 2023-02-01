@@ -446,7 +446,7 @@ def train_embedding_network(embedding_model,generative_model,trainset,epochs,bat
 #import embedding_models
 embedding_model = get_Unet(64,depths,block_depth)
 weights_name = 'weights/networkUnet_full.hdf5'
-embedding_model.load_weights
+embedding_model.load_weights(weights_name)
 trainset = x_train[100000:164000]
 train_embedding_network(embedding_model,model,trainset,5,16)
 embedding_model.save_weights(weights_name)
